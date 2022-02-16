@@ -11,7 +11,7 @@ class SQRServiceTest {
     @CsvSource(value = {"'how many squares in range 200 to 300', 200, 300, 3",
             "'how many squares in range 200 to 362', 200, 362, 5",
             "'how many squares in range 0 to 300', 0, 300, 8"})
-    void shouldhowManySquares(String testName, int startNumber, int lastNumber,
+    void shouldHowManySquares(String testName, int startNumber, int lastNumber,
                               int expected) {
         SQRService service = new SQRService();
 
